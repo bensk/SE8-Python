@@ -1,8 +1,9 @@
-for i in range(1,101):
-    if i%3==0 and i%5==0:
-        print "Fizzbuzz"
-    elif i%3 ==0:
-        print "Fizz"
-    elif i%5 == 0:
+for groot in range(1, 101):
+    if groot % 15 == 0:
+        print "FizzBuzz"
+    elif groot % 5 == 0:
         print "Buzz"
-    print i
+    elif groot % 3 == 0:
+        print "Fizz"
+    else:
+        print groot
