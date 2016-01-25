@@ -24,5 +24,16 @@ def even_sum(x):
 
 print "The odd numbers are:"
 find_odds(my_randoms)
-print "The sum of the odd numbers is " + str(odd_sum(my_randoms))
 print "The sum of the even numbers is " + str(even_sum(my_randoms))
+print "The sum of the odd numbers is " + str(odd_sum(my_randoms))
+
+
+list_7_11 = []
+def seven_eleven(input):
+    print "The numbers that are divisible by 7 or 11 are..."
+    for number in input:
+        if number % 7 == 0 or number % 11 == 0:
+            print number
+# What if I want to find the sum of all of these numbers?
+
+seven_eleven([1,3,7,77,63,4,22])
