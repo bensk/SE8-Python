@@ -19,5 +19,5 @@ while guess != answer:
         score = score + 1
     guess = int(raw_input("What's your guess?"))
 score = score+1
-print "Great job, " + user_name + ", the number was " + str(answer) + ". It only too you " + str(score) + " tries."
+print "Great job, " + user_name + ", the number was " + str(answer) + ". It only took you " + str(score) + " tries."
 # print randint(0,upper_bound) so, that works

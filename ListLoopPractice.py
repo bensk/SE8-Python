@@ -3,7 +3,7 @@ my_randoms = random.sample(range(100), 15)
 
 print my_randoms
 
-def find_odds(x):
+def find_odds(       ):
     for numbers in x:
         if numbers % 2 == 1:
             print numbers
@@ -30,10 +30,7 @@ print "The sum of the odd numbers is " + str(odd_sum(my_randoms))
 
 list_7_11 = []
 def seven_eleven(input):
-    print "The numbers that are divisible by 7 or 11 are..."
     for number in input:
-        if number % 7 == 0 or number % 11 == 0:
+        if number % 3 == 0 or number % 5 == 0:
             print number
-# What if I want to find the sum of all of these numbers?
-
-seven_eleven([1,3,7,77,63,4,22])
+seven_eleven([1,3,7,5,63,4,20,60])
