@@ -5,7 +5,7 @@ def seven_eleven(que):
 
 seven_eleven([7,23,22,77,43,42])
 
-#Meeting Standards
+# Meeting Standards
 test_list=[1,2,3,100001]
 
 # Exceeding Standards
