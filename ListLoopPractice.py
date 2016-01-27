@@ -3,7 +3,7 @@ my_randoms = random.sample(range(100), 15)
 
 print my_randoms
 
-def find_odds(       ):
+def find_odds(x):
     for numbers in x:
         if numbers % 2 == 1:
             print numbers

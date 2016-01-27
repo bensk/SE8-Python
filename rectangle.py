@@ -1,6 +1,6 @@
-def rectange(x,y):
+def rectangle():
+    x = input("How wide?")
+    y = input("How tall?")
     for numbers in range(y):
-        print "0" * x
-        x = x + 1
-
-rectange(1,50)
+        print "*" * x
+rectangle()
