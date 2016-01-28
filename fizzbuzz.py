@@ -8,25 +8,25 @@ for groot in range(1, 101):
     else:
         print groot
 
-
-import random
-my_randoms = random.sample(range(100), 15)
-# This generates a random list to test (so the answers are basicallly impossible to fake.
-print my_randoms
-
-test_list=[1,2,3,100001]  # Use a test list to check your functions
-odd_list = []  # Create the empty list OUTSIDE of the function, so that you can use it OUTSIDE of the function.
-def find_odds(input):
-    for thingy in input:
-        if thingy % 2 == 1:
-            print thingy
-
-find_odds(test_list)
-
-def odd_sum(input):
-   for thingy in input:
-       if thingy % 2 == 1:
-           odd_list.append(thingy)
-   print sum(odd_list)
-
-odd_sum(test_list)
+#
+# import random
+# my_randoms = random.sample(range(100), 15)
+# # This generates a random list to test (so the answers are basicallly impossible to fake.
+# print my_randoms
+#
+# test_list=[1,2,3,100001]  # Use a test list to check your functions
+# odd_list = []  # Create the empty list OUTSIDE of the function, so that you can use it OUTSIDE of the function.
+# def find_odds(input):
+#     for thingy in input:
+#         if thingy % 2 == 1:
+#             print thingy
+#
+# find_odds(test_list)
+#
+# def odd_sum(input):
+#    for thingy in input:
+#        if thingy % 2 == 1:
+#            odd_list.append(thingy)
+#    print sum(odd_list)
+#
+# odd_sum(test_list)
