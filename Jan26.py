@@ -13,7 +13,7 @@ def odd_sum(input):
     for x in input:
         if x % 2 == 1:
             odd_list.append(x) # add x to odd_list
-        print "SK is cool"
+            print "SK is cool"
     print sum(odd_list)
-
 odd_sum(test_list)
+# How many times will this function print "SK is cool"
