@@ -5,7 +5,10 @@ def timer():
     for x in range(max):
         print max
         max = max - 1
-        # time.sleep(1)
+        time.sleep(1)
     print "Boom!"
 
 timer()
+
+import datetime
+print datetime.datetime.now().time()
