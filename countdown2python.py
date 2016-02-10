@@ -1,4 +1,4 @@
-import time
+import time 
 
 a = input("Give me a number!")
 
